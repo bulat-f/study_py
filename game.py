@@ -39,7 +39,7 @@ class Car:
         self.x +=  self.speed * direction
 
     def colliderect(self, other_car):
-        self.car.colliderect(other_car.car)
+        return self.car.colliderect(other_car.car)
 
 
 
